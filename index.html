@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+
+    <section class="flex-container">
+        <div class="flex-item">
+            <h3>
+                Salma
+            </h3>
+        </div>
+         <div class="flex-item">
+            <h3>
+                Rodiana
+            </h3>
+        </div>
+         <div class="flex-item">
+            <h3 id="element">
+                Hossam
+            </h3>
+        </div>
+    </section>
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
+</html>
